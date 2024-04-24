@@ -12,4 +12,5 @@ app.post('/api/cars', (request,response)=> {
     const {name, brand} = request.body;
     console.log(name);
     console.log(brand);
+    response.send("Car Submitted Successfully")
 })
