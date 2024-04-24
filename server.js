@@ -10,5 +10,6 @@ app.get('/', (req,res)=> {
 
 app.post('/api/cars', (request,response)=> {
     const {name, brand} = request.body;
-    console.log(name)
+    console.log(name);
+    
 })
