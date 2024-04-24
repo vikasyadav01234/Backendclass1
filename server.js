@@ -6,4 +6,9 @@ app.listen(3000, ()=>{
 });
 app.get('/', (req,res)=> {
     res.send("hello jee , Kaise Ho Sarre")
+});
+
+app.post('/api/cars', (request,response)=> {
+    const {name, brand} = request.body;
+    console.log(name)
 })
