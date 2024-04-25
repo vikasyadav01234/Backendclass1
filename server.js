@@ -24,4 +24,4 @@ mongoose.connect('mongodb://localhost:27017/myDatabase', {
     useNewurlParser:true,
     useUnifiedTopology:true
 })
-.then()
+.then(()=>{console.log("Connection Successful")})
