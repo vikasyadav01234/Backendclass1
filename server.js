@@ -25,4 +25,4 @@ mongoose.connect('mongodb://localhost:27017/myDatabase', {
     useUnifiedTopology:true
 })
 .then(()=>{console.log("Connection Successful")})
-.catch((error))
+.catch((error)=>{console.log("Recived an error")})
