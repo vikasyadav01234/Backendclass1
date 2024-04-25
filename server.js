@@ -22,5 +22,5 @@ const mongoose = require ('mongoose');
 
 mongoose.connect('mongodb://localhost:27017/myDatabase',{
     useNewurlParser:true,
-    use
+    useUnifiedTopology:true
 })
