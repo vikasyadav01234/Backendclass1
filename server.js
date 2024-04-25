@@ -2,6 +2,8 @@ const express = require('express');
 const app = express();
 
 const bodyParser = require('body-parser');
+app.
+
 app.listen(5000, ()=>{
     console.log("server started at port no. 3000")
 });
