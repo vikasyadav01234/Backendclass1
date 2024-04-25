@@ -17,3 +17,7 @@ app.post('/api/cars', (request,response)=> {
     console.log(brand);
     response.send("Car Submitted Successfully");
 })
+
+const mongoose = require ('mongoose');
+
+mongoose.connect('mongodb://localhost:27017/myDatabase')
